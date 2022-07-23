@@ -6,7 +6,7 @@ a = int(input("Enter any number : "))
 arrx = list()
 
 while True:
-    arry.append(a)
+    arrx.append(a)
     if(a == 1):
         break
     elif(a % 2 == 0):
