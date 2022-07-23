@@ -1,7 +1,8 @@
+import sys
 import matplotlib.pyplot as pyp
 from matplotlib import style
 
-a = int(input("Enter any number : "))
+a = (sys.argv[1])
 
 arrx = list()
 
