@@ -1,2 +1,6 @@
 # collatz_plot
-plots the collatz-conjecture 
+
+execute
+```
+python3 collatz.py
+```
