@@ -1,8 +1,13 @@
 import sys
 import matplotlib.pyplot as pyp
 from matplotlib import style
+a = 0
 
-a = (sys.argv[1])
+try:
+    a = int((sys.argv[1]))
+except IndexError:
+    print('No input recieved!\ntry: python3 collatz.py 27')
+    raise SystemExit
 
 arrx = list()
 
